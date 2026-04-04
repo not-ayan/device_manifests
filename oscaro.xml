@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--remotes -->
+    <remote name="ax-oscaro-hub" fetch="https://github.com/oscaro-resources" clone-depth="1" />
+    <remote name="ax-oscaro-lab" fetch="https://gitlab.com/NoCache-69" clone-depth="1" />
+
+    <!--repos -->
+    <project path="device/oneplus/oscaro" name="android_device_oneplus_oscaro" remote="ax-oscaro-hub" revision="axion-ci" />
+    <project path="kernel/oneplus/sn6375" name="android_kernel_oneplus_sm6375" remote="ax-oscaro-hub" revision="16.2" />
+    <project path="vendor/oneplus/oscaro" name="proprietary_vendor_oneplus_oscaro" remote="ax-oscaro-hub" revision="16.2" />
+    <project path="hardware/dolby" name="hardware_dolby" remote="ax-oscaro-hub" revision="lunaris-dolby" />
+    <project path="hardware/oplus" name="hardware_oplus" remote="ax-oscaro-hub" revision="16.2" />
+    <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="ax-oscaro-lab" revision="lineage-23.1" />
+    <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="ax-oscaro-hub" revision="lineage-23.1" />
+
+</manifest>
